@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <title>Anti-Shoujo Moment</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <div id="body_div">
+            <!--Parte de adição de nomes (esquerda da tela)-->
+            <div id="esq_frame_nomes" class="esquerda">
+                <h1 id="titulo_nomes">Adicionar Nomes</h1>
+                <p>Adicione os Mangás que deseja filtrar</p>
+                <label>Adicione os nomes, um por linha:</label>
+                <br>
+                <textarea id="text_mangas" name="nome_mangas" rows="10" cols="60"></textarea>
+                <br>
+                <button type="button" id="btn_submit">Aceitar</button>
+            </div>
+            
+            <div id="linha_vertical"></div>
+            <!--Parte de exibição de mangás (direita da tela)-->
+            <div id="dir_frame_info" class="direita">
+                <h1 id="titulo_info">Vizualizar Mangás</h1>
+                <p>Lista dos Mangás</p>
+                <!--Div para adição dinâmica das informações dos mangás-->
+                <div id="infos_exibicao">
+                    <h1 id="removivel">Digite os nomes e aperte em adicionar.</h1>
+                </div>
+            </div>
+        </div>
+       
+    </body>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+</html>

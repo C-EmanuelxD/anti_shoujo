@@ -1,0 +1,42 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#body_div {
+    display: flex;
+    justify-content: center;
+}
+
+.direita{
+    margin-left: 100px;
+    border: 2px solid black;
+    width: 40%;
+}
+
+.dir-infos{
+    display: inline-flex;
+    margin-top: 15px;
+    border: 2px solid black;
+}
+
+.infos {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.titulo-manga{
+    font-size: 20px;
+}
+
+.paragrafo-infos{
+    width: 80%;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+
+.img {
+    width: 150px;
+    height: 200px;
+    border: 2px solid black;
+}
